@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D00B677B1C63DED80023BEC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B677A1C63DED80023BEC6 /* main.m */; };
+		D00B677E1C63DED80023BEC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B677D1C63DED80023BEC6 /* AppDelegate.m */; };
+		D00B67811C63DED80023BEC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B67801C63DED80023BEC6 /* ViewController.m */; };
+		D00B67841C63DED80023BEC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00B67821C63DED80023BEC6 /* Main.storyboard */; };
+		D00B67861C63DED80023BEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00B67851C63DED80023BEC6 /* Assets.xcassets */; };
+		D00B67891C63DED80023BEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00B67871C63DED80023BEC6 /* LaunchScreen.storyboard */; };
+		D00B67921C63DFEB0023BEC6 /* ThiagoCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B67911C63DFEB0023BEC6 /* ThiagoCoreDataStack.m */; };
+		D00B67951C63E1BF0023BEC6 /* ReceiptModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D00B67931C63E1BF0023BEC6 /* ReceiptModel.xcdatamodeld */; };
+		D00B679E1C63E5030023BEC6 /* Tag+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B67971C63E5030023BEC6 /* Tag+CoreDataProperties.m */; };
+		D00B679F1C63E5030023BEC6 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B67991C63E5030023BEC6 /* Tag.m */; };
+		D00B67A01C63E5030023BEC6 /* Receipt+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B679B1C63E5030023BEC6 /* Receipt+CoreDataProperties.m */; };
+		D00B67A11C63E5030023BEC6 /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B679D1C63E5030023BEC6 /* Receipt.m */; };
+		D00B67A41C63EC280023BEC6 /* AddReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B67A31C63EC280023BEC6 /* AddReceiptViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D00B67761C63DED80023BEC6 /* ReceiptsPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptsPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00B677A1C63DED80023BEC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D00B677C1C63DED80023BEC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReceiptsPlus/AppDelegate.h; sourceTree = "<group>"; };
+		D00B677D1C63DED80023BEC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReceiptsPlus/AppDelegate.m; sourceTree = "<group>"; };
+		D00B677F1C63DED80023BEC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D00B67801C63DED80023BEC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D00B67831C63DED80023BEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D00B67851C63DED80023BEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D00B67881C63DED80023BEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D00B678A1C63DED80023BEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00B67901C63DFEB0023BEC6 /* ThiagoCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThiagoCoreDataStack.h; path = ReceiptsPlus/ThiagoCoreDataStack.h; sourceTree = "<group>"; };
+		D00B67911C63DFEB0023BEC6 /* ThiagoCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThiagoCoreDataStack.m; path = ReceiptsPlus/ThiagoCoreDataStack.m; sourceTree = "<group>"; };
+		D00B67941C63E1BF0023BEC6 /* ReceiptModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReceiptModel.xcdatamodel; sourceTree = "<group>"; };
+		D00B67961C63E5030023BEC6 /* Tag+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tag+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D00B67971C63E5030023BEC6 /* Tag+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tag+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D00B67981C63E5030023BEC6 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		D00B67991C63E5030023BEC6 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
+		D00B679A1C63E5030023BEC6 /* Receipt+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Receipt+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D00B679B1C63E5030023BEC6 /* Receipt+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Receipt+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D00B679C1C63E5030023BEC6 /* Receipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receipt.h; sourceTree = "<group>"; };
+		D00B679D1C63E5030023BEC6 /* Receipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receipt.m; sourceTree = "<group>"; };
+		D00B67A21C63EC280023BEC6 /* AddReceiptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReceiptViewController.h; sourceTree = "<group>"; };
+		D00B67A31C63EC280023BEC6 /* AddReceiptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReceiptViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00B67731C63DED80023BEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00B676D1C63DED80023BEC6 = {
+			isa = PBXGroup;
+			children = (
+				D00B67781C63DED80023BEC6 /* ReceiptsPlus */,
+			);
+			sourceTree = "<group>";
+		};
+		D00B67771C63DED80023BEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D00B67761C63DED80023BEC6 /* ReceiptsPlus.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D00B67781C63DED80023BEC6 /* ReceiptsPlus */ = {
+			isa = PBXGroup;
+			children = (
+				D00B67A61C648E200023BEC6 /* Model */,
+				D00B67A51C648DAB0023BEC6 /* Controllers */,
+				D00B67A71C648F490023BEC6 /* UI */,
+				D00B67771C63DED80023BEC6 /* Products */,
+				D00B67791C63DED80023BEC6 /* Supporting Files */,
+			);
+			path = ReceiptsPlus;
+			sourceTree = "<group>";
+		};
+		D00B67791C63DED80023BEC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D00B678A1C63DED80023BEC6 /* Info.plist */,
+				D00B67851C63DED80023BEC6 /* Assets.xcassets */,
+				D00B677A1C63DED80023BEC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D00B67A51C648DAB0023BEC6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D00B677F1C63DED80023BEC6 /* ViewController.h */,
+				D00B67801C63DED80023BEC6 /* ViewController.m */,
+				D00B67A21C63EC280023BEC6 /* AddReceiptViewController.h */,
+				D00B67A31C63EC280023BEC6 /* AddReceiptViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D00B67A61C648E200023BEC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D00B677C1C63DED80023BEC6 /* AppDelegate.h */,
+				D00B677D1C63DED80023BEC6 /* AppDelegate.m */,
+				D00B67901C63DFEB0023BEC6 /* ThiagoCoreDataStack.h */,
+				D00B67911C63DFEB0023BEC6 /* ThiagoCoreDataStack.m */,
+				D00B67961C63E5030023BEC6 /* Tag+CoreDataProperties.h */,
+				D00B67971C63E5030023BEC6 /* Tag+CoreDataProperties.m */,
+				D00B67981C63E5030023BEC6 /* Tag.h */,
+				D00B67991C63E5030023BEC6 /* Tag.m */,
+				D00B679A1C63E5030023BEC6 /* Receipt+CoreDataProperties.h */,
+				D00B679B1C63E5030023BEC6 /* Receipt+CoreDataProperties.m */,
+				D00B679C1C63E5030023BEC6 /* Receipt.h */,
+				D00B679D1C63E5030023BEC6 /* Receipt.m */,
+				D00B67931C63E1BF0023BEC6 /* ReceiptModel.xcdatamodeld */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D00B67A71C648F490023BEC6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D00B67821C63DED80023BEC6 /* Main.storyboard */,
+				D00B67871C63DED80023BEC6 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00B67751C63DED80023BEC6 /* ReceiptsPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00B678D1C63DED80023BEC6 /* Build configuration list for PBXNativeTarget "ReceiptsPlus" */;
+			buildPhases = (
+				D00B67721C63DED80023BEC6 /* Sources */,
+				D00B67731C63DED80023BEC6 /* Frameworks */,
+				D00B67741C63DED80023BEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReceiptsPlus;
+			productName = ReceiptsPlus;
+			productReference = D00B67761C63DED80023BEC6 /* ReceiptsPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00B676E1C63DED80023BEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Thiago Heitling";
+				TargetAttributes = {
+					D00B67751C63DED80023BEC6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D00B67711C63DED80023BEC6 /* Build configuration list for PBXProject "ReceiptsPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00B676D1C63DED80023BEC6;
+			productRefGroup = D00B67771C63DED80023BEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00B67751C63DED80023BEC6 /* ReceiptsPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00B67741C63DED80023BEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00B67891C63DED80023BEC6 /* LaunchScreen.storyboard in Resources */,
+				D00B67861C63DED80023BEC6 /* Assets.xcassets in Resources */,
+				D00B67841C63DED80023BEC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00B67721C63DED80023BEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00B679E1C63E5030023BEC6 /* Tag+CoreDataProperties.m in Sources */,
+				D00B67A41C63EC280023BEC6 /* AddReceiptViewController.m in Sources */,
+				D00B67811C63DED80023BEC6 /* ViewController.m in Sources */,
+				D00B67951C63E1BF0023BEC6 /* ReceiptModel.xcdatamodeld in Sources */,
+				D00B679F1C63E5030023BEC6 /* Tag.m in Sources */,
+				D00B67921C63DFEB0023BEC6 /* ThiagoCoreDataStack.m in Sources */,
+				D00B677E1C63DED80023BEC6 /* AppDelegate.m in Sources */,
+				D00B67A01C63E5030023BEC6 /* Receipt+CoreDataProperties.m in Sources */,
+				D00B677B1C63DED80023BEC6 /* main.m in Sources */,
+				D00B67A11C63E5030023BEC6 /* Receipt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D00B67821C63DED80023BEC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00B67831C63DED80023BEC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D00B67871C63DED80023BEC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00B67881C63DED80023BEC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D00B678B1C63DED80023BEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D00B678C1C63DED80023BEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D00B678E1C63DED80023BEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReceiptsPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thiagoheitling.ReceiptsPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D00B678F1C63DED80023BEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReceiptsPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thiagoheitling.ReceiptsPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00B67711C63DED80023BEC6 /* Build configuration list for PBXProject "ReceiptsPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00B678B1C63DED80023BEC6 /* Debug */,
+				D00B678C1C63DED80023BEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00B678D1C63DED80023BEC6 /* Build configuration list for PBXNativeTarget "ReceiptsPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00B678E1C63DED80023BEC6 /* Debug */,
+				D00B678F1C63DED80023BEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D00B67931C63E1BF0023BEC6 /* ReceiptModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D00B67941C63E1BF0023BEC6 /* ReceiptModel.xcdatamodel */,
+			);
+			currentVersion = D00B67941C63E1BF0023BEC6 /* ReceiptModel.xcdatamodel */;
+			name = ReceiptModel.xcdatamodeld;
+			path = ReceiptsPlus/ReceiptModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D00B676E1C63DED80023BEC6 /* Project object */;
+}
